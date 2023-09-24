@@ -1,0 +1,960 @@
+2023.09.24 13:41:01 INFO  Started: Metals version 1.0.1 in folders '/workspace/assignment1-comp471' for client Gitpod Code 1.82.2.
+Sep 24, 2023 1:41:01 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 24, 2023 1:41:01 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 24, 2023 1:41:01 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 24, 2023 1:41:01 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/workspace/assignment1-comp471/.metals/metals (H2 2.1)
+Sep 24, 2023 1:41:01 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Sep 24, 2023 1:41:01 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.016s)
+Sep 24, 2023 1:41:01 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Sep 24, 2023 1:41:01 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Sep 24, 2023 1:41:01 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Sep 24, 2023 1:41:01 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Sep 24, 2023 1:41:01 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Sep 24, 2023 1:41:01 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Sep 24, 2023 1:41:01 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.026s)
+2023.09.24 13:41:01 INFO  time: initialize in 0.59s
+2023.09.24 13:41:03 INFO  Attempting to connect to the build server...
+2023.09.24 13:41:03 INFO  Running BSP server List(/home/gitpod/.sdkman/candidates/java/17.0.8.1-tem/bin/java, -Xms100m, -Xmx100m, -classpath, /home/gitpod/.sdkman/candidates/sbt/1.9.6/bin/sbt-launch.jar, -Dsbt.script=/home/gitpod/.sdkman/candidates/sbt/current/bin/sbt, xsbt.boot.Boot, -bsp)
+2023.09.24 13:41:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspace/assignment1-comp471/.metals/bsp.trace.json or /home/gitpod/.cache/metals/bsp.trace.json
+2023.09.24 13:41:03 INFO  BSP server: Picked up JAVA_TOOL_OPTIONS:  -Xmx3489m
+Sep 24, 2023 1:41:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.09.24 13:41:08 INFO  no build target found for /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala. Using presentation compiler with project's scala-library version: 3.3.0
+Sep 24, 2023 1:41:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.09.24 13:41:09 WARN  no build target for: /workspace/assignment1-comp471/project/project/metals.sbt
+2023.09.24 13:41:09 WARN  no build target for: /workspace/assignment1-comp471/project/metals.sbt
+Sep 24, 2023 1:41:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Sep 24, 2023 1:41:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Sep 24, 2023 1:41:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+2023.09.24 13:41:09 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+Sep 24, 2023 1:41:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+2023.09.24 13:41:09 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 13:41:10 INFO  time: code lens generation in 6.98s
+2023.09.24 13:41:13 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 13:41:13 INFO  time: code lens generation in 4.01s
+2023.09.24 13:41:13 INFO  time: code lens generation in 3.99s
+2023.09.24 13:41:13 INFO  time: code lens generation in 4.25s
+2023.09.24 13:41:13 INFO  time: code lens generation in 4.16s
+2023.09.24 13:41:13 INFO  time: code lens generation in 4.05s
+2023.09.24 13:41:13 INFO  time: code lens generation in 1.8s
+2023.09.24 13:41:13 INFO  time: code lens generation in 2.51s
+2023.09.24 13:41:13 INFO  time: code lens generation in 4.98s
+2023.09.24 13:41:13 INFO  time: code lens generation in 4.96s
+2023.09.24 13:41:16 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 13:41:17 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 13:41:19 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 13:41:20 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 13:41:29 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestFixtures.scala
+2023.09.24 13:41:32 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestFixtures.scala
+2023.09.24 13:41:34 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestFixtures.scala
+2023.09.24 13:41:35 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestFixtures.scala
+2023.09.24 13:42:04 ERROR Timeout waiting for 'build/initialize' response
+2023.09.24 13:42:04 WARN  Retrying connection to the build server sbt
+2023.09.24 13:42:04 INFO  Running BSP server List(/home/gitpod/.sdkman/candidates/java/17.0.8.1-tem/bin/java, -Xms100m, -Xmx100m, -classpath, /home/gitpod/.sdkman/candidates/sbt/1.9.6/bin/sbt-launch.jar, -Dsbt.script=/home/gitpod/.sdkman/candidates/sbt/current/bin/sbt, xsbt.boot.Boot, -bsp)
+2023.09.24 13:42:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspace/assignment1-comp471/.metals/bsp.trace.json or /home/gitpod/.cache/metals/bsp.trace.json
+2023.09.24 13:42:04 INFO  BSP server: Picked up JAVA_TOOL_OPTIONS:  -Xmx3489m
+2023.09.24 13:42:44 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:42:45 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:42:46 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:42:49 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:42:54 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:43:00 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:43:02 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:43:04 ERROR Timeout waiting for 'build/initialize' response
+2023.09.24 13:43:04 WARN  Retrying connection to the build server sbt
+2023.09.24 13:43:04 INFO  Running BSP server List(/home/gitpod/.sdkman/candidates/java/17.0.8.1-tem/bin/java, -Xms100m, -Xmx100m, -classpath, /home/gitpod/.sdkman/candidates/sbt/1.9.6/bin/sbt-launch.jar, -Dsbt.script=/home/gitpod/.sdkman/candidates/sbt/current/bin/sbt, xsbt.boot.Boot, -bsp)
+2023.09.24 13:43:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspace/assignment1-comp471/.metals/bsp.trace.json or /home/gitpod/.cache/metals/bsp.trace.json
+2023.09.24 13:43:04 INFO  BSP server: Picked up JAVA_TOOL_OPTIONS:  -Xmx3489m
+2023.09.24 13:43:12 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 13:43:26 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:43:34 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:44:04 ERROR Timeout waiting for 'build/initialize' response
+2023.09.24 13:44:04 WARN  Retrying connection to the build server sbt
+2023.09.24 13:44:04 INFO  Running BSP server List(/home/gitpod/.sdkman/candidates/java/17.0.8.1-tem/bin/java, -Xms100m, -Xmx100m, -classpath, /home/gitpod/.sdkman/candidates/sbt/1.9.6/bin/sbt-launch.jar, -Dsbt.script=/home/gitpod/.sdkman/candidates/sbt/current/bin/sbt, xsbt.boot.Boot, -bsp)
+2023.09.24 13:44:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspace/assignment1-comp471/.metals/bsp.trace.json or /home/gitpod/.cache/metals/bsp.trace.json
+2023.09.24 13:44:04 INFO  BSP server: Picked up JAVA_TOOL_OPTIONS:  -Xmx3489m
+2023.09.24 13:45:04 ERROR Timeout waiting for 'build/initialize' response
+2023.09.24 13:45:04 WARN  Retrying connection to the build server sbt
+2023.09.24 13:45:04 INFO  Running BSP server List(/home/gitpod/.sdkman/candidates/java/17.0.8.1-tem/bin/java, -Xms100m, -Xmx100m, -classpath, /home/gitpod/.sdkman/candidates/sbt/1.9.6/bin/sbt-launch.jar, -Dsbt.script=/home/gitpod/.sdkman/candidates/sbt/current/bin/sbt, xsbt.boot.Boot, -bsp)
+2023.09.24 13:45:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspace/assignment1-comp471/.metals/bsp.trace.json or /home/gitpod/.cache/metals/bsp.trace.json
+2023.09.24 13:45:04 INFO  BSP server: Picked up JAVA_TOOL_OPTIONS:  -Xmx3489m
+2023.09.24 13:46:05 ERROR Timeout waiting for 'build/initialize' response
+2023.09.24 13:46:05 WARN  Retrying connection to the build server sbt
+2023.09.24 13:46:05 INFO  Running BSP server List(/home/gitpod/.sdkman/candidates/java/17.0.8.1-tem/bin/java, -Xms100m, -Xmx100m, -classpath, /home/gitpod/.sdkman/candidates/sbt/1.9.6/bin/sbt-launch.jar, -Dsbt.script=/home/gitpod/.sdkman/candidates/sbt/current/bin/sbt, xsbt.boot.Boot, -bsp)
+2023.09.24 13:46:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspace/assignment1-comp471/.metals/bsp.trace.json or /home/gitpod/.cache/metals/bsp.trace.json
+2023.09.24 13:46:05 INFO  BSP server: Picked up JAVA_TOOL_OPTIONS:  -Xmx3489m
+2023.09.24 13:46:06 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:46:13 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:46:18 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:46:28 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 13:46:31 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 13:46:33 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 13:47:05 ERROR Timeout waiting for 'build/initialize' response
+2023.09.24 13:47:05 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:544)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:447)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.24 13:47:05 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:47:05 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 13:47:05 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 13:47:05 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestFixtures.scala
+2023.09.24 13:47:32 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:50:56 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/Main.scala
+2023.09.24 13:52:19 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:54:55 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:54:59 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:57:18 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:57:22 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:58:42 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 13:59:58 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:00:12 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:00:31 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:00:34 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:01:01 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:01:17 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:05:32 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:05:35 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:05:37 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:11:23 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:11:26 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:14:41 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:15:47 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:16:11 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:16:12 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:16:15 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 14:16:24 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:07:32 INFO  Started: Metals version 1.0.1 in folders '/workspace/assignment1-comp471' for client Gitpod Code 1.82.2.
+Sep 24, 2023 4:07:32 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 24, 2023 4:07:32 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 24, 2023 4:07:32 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 24, 2023 4:07:32 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/workspace/assignment1-comp471/.metals/metals (H2 2.1)
+Sep 24, 2023 4:07:32 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.022s)
+Sep 24, 2023 4:07:32 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 24, 2023 4:07:32 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.24 16:07:33 INFO  time: initialize in 0.95s
+2023.09.24 16:07:36 INFO  Attempting to connect to the build server...
+2023.09.24 16:07:42 INFO  no build target found for /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.24 16:07:44 INFO  time: code lens generation in 7.06s
+2023.09.24 16:07:52 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:10:03 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:10:28 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:10:30 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:10:37 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:11:09 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:11:22 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:12:59 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:13:25 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:13:27 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+Sep 24, 2023 4:14:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = _
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Init$.apply(Trees.scala:860)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:4075)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:303)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:347)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$annotsBuf$1(ScalametaParser.scala:3025)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.annotsBuf(ScalametaParser.scala:3025)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$annots$1(ScalametaParser.scala:3010)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$annots$1$adapted(ScalametaParser.scala:3010)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.annots(ScalametaParser.scala:3010)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.annotTypeRest(ScalametaParser.scala:942)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.annotTypeRest$(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.annotTypeRest(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.annotType(ScalametaParser.scala:939)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.$anonfun$compoundType$1(ScalametaParser.scala:909)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.compoundType(ScalametaParser.scala:907)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.compoundType$(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.compoundType(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixType(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixType$(ScalametaParser.scala:815)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.infixType(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixTypeOrTuple(ScalametaParser.scala:812)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixTypeOrTuple$(ScalametaParser.scala:810)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.infixTypeOrTuple(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.$anonfun$typ$1(ScalametaParser.scala:754)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:303)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:347)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.typ(ScalametaParser.scala:750)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.typ$(ScalametaParser.scala:750)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.typ(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser.typ(ScalametaParser.scala:2826)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$paramType$1(ScalametaParser.scala:3143)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:303)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:347)
+	at scala.meta.internal.parsers.ScalametaParser.paramType(ScalametaParser.scala:3130)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParam$11(ScalametaParser.scala:3226)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParam$1(ScalametaParser.scala:3214)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.termParam(ScalametaParser.scala:3155)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$4(ScalametaParser.scala:3106)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$4$adapted(ScalametaParser.scala:3106)
+	at scala.meta.internal.parsers.ScalametaParser.iter$1(ScalametaParser.scala:576)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1(ScalametaParser.scala:582)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1$adapted(ScalametaParser.scala:569)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.tokenSeparated(ScalametaParser.scala:569)
+	at scala.meta.internal.parsers.ScalametaParser.commaSeparatedWithIndex(ScalametaParser.scala:589)
+	at scala.meta.internal.parsers.ScalametaParser.parseParams$1(ScalametaParser.scala:3106)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$2(ScalametaParser.scala:3117)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpenOr(ScalametaParser.scala:238)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpenOr(ScalametaParser.scala:229)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$1(ScalametaParser.scala:3119)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.paramClause$1(ScalametaParser.scala:3119)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$8(ScalametaParser.scala:3122)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$8$adapted(ScalametaParser.scala:3121)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.termParamClausesOnParen(ScalametaParser.scala:3121)
+	at scala.meta.internal.parsers.ScalametaParser.termParamClauses(ScalametaParser.scala:3089)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$primaryCtor$1(ScalametaParser.scala:3948)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.primaryCtor(ScalametaParser.scala:3942)
+	at scala.meta.internal.parsers.ScalametaParser.enumSingleCaseDef(ScalametaParser.scala:3921)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$enumCaseDef$1(ScalametaParser.scala:3905)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:354)
+	at scala.meta.internal.parsers.ScalametaParser.enumCaseDef(ScalametaParser.scala:3900)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3486)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3455)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4415)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4409)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4357)
+	at scala.meta.internal.parsers.ScalametaParser.getStats$2(ScalametaParser.scala:4399)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$templateStatSeq$3(ScalametaParser.scala:4400)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$templateStatSeq$3$adapted(ScalametaParser.scala:4397)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$templateStatSeq(ScalametaParser.scala:4397)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$templateStatSeq(ScalametaParser.scala:4386)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBodyOpt$1(ScalametaParser.scala:4245)
+	at scala.meta.internal.parsers.ScalametaParser.indentedOnOpen(ScalametaParser.scala:263)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4245)
+	at scala.meta.internal.parsers.ScalametaParser.templateAfterExtends(ScalametaParser.scala:4184)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4232)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4222)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$enumDef$1(ScalametaParser.scala:3893)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:354)
+	at scala.meta.internal.parsers.ScalametaParser.enumDef(ScalametaParser.scala:3871)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3799)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3495)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3455)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4382)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4366)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4357)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4579)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4590)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$10(ScalametaParser.scala:4590)
+	at scala.meta.internal.parsers.ScalametaParser.tryParse(ScalametaParser.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4582)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4550)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4543)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4543)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4548)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:127)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:124)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:46)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:124)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:139)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:130)
+	at scala.meta.internal.parsing.Trees.$anonfun$get$1(Trees.scala:39)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.parsing.Trees.get(Trees.scala:39)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:85)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:97)
+	at scala.meta.internal.metals.codeactions.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:78)
+	at scala.meta.internal.metals.codeactions.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:76)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.codeactions.CodeActionProvider.codeActions(CodeActionProvider.scala:76)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeAction$1(MetalsLspService.scala:1562)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.codeAction(MetalsLspService.scala:1561)
+	at scala.meta.internal.metals.WorkspaceLspService.codeAction(WorkspaceLspService.scala:432)
+	at scala.meta.metals.lsp.DelegatingScalaService.codeAction(DelegatingScalaService.scala:146)
+	... 15 more
+
+Sep 24, 2023 4:14:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = _
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = _
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = _
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Init$.apply(Trees.scala:860)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:4075)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:303)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:347)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$annotsBuf$1(ScalametaParser.scala:3025)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.annotsBuf(ScalametaParser.scala:3025)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$annots$1(ScalametaParser.scala:3010)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$annots$1$adapted(ScalametaParser.scala:3010)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.annots(ScalametaParser.scala:3010)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.annotTypeRest(ScalametaParser.scala:942)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.annotTypeRest$(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.annotTypeRest(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.annotType(ScalametaParser.scala:939)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.$anonfun$compoundType$1(ScalametaParser.scala:909)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.compoundType(ScalametaParser.scala:907)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.compoundType$(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.compoundType(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixType(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixType$(ScalametaParser.scala:815)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.infixType(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixTypeOrTuple(ScalametaParser.scala:812)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixTypeOrTuple$(ScalametaParser.scala:810)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.infixTypeOrTuple(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.$anonfun$typ$1(ScalametaParser.scala:754)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:303)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:347)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.typ(ScalametaParser.scala:750)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.typ$(ScalametaParser.scala:750)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.typ(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser.typ(ScalametaParser.scala:2826)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$paramType$1(ScalametaParser.scala:3143)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:303)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:347)
+	at scala.meta.internal.parsers.ScalametaParser.paramType(ScalametaParser.scala:3130)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParam$11(ScalametaParser.scala:3226)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParam$1(ScalametaParser.scala:3214)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.termParam(ScalametaParser.scala:3155)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$4(ScalametaParser.scala:3106)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$4$adapted(ScalametaParser.scala:3106)
+	at scala.meta.internal.parsers.ScalametaParser.iter$1(ScalametaParser.scala:576)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1(ScalametaParser.scala:582)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1$adapted(ScalametaParser.scala:569)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.tokenSeparated(ScalametaParser.scala:569)
+	at scala.meta.internal.parsers.ScalametaParser.commaSeparatedWithIndex(ScalametaParser.scala:589)
+	at scala.meta.internal.parsers.ScalametaParser.parseParams$1(ScalametaParser.scala:3106)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$2(ScalametaParser.scala:3117)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpenOr(ScalametaParser.scala:238)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpenOr(ScalametaParser.scala:229)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$1(ScalametaParser.scala:3119)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.paramClause$1(ScalametaParser.scala:3119)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$8(ScalametaParser.scala:3122)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$8$adapted(ScalametaParser.scala:3121)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.termParamClausesOnParen(ScalametaParser.scala:3121)
+	at scala.meta.internal.parsers.ScalametaParser.termParamClauses(ScalametaParser.scala:3089)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$primaryCtor$1(ScalametaParser.scala:3948)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.primaryCtor(ScalametaParser.scala:3942)
+	at scala.meta.internal.parsers.ScalametaParser.enumSingleCaseDef(ScalametaParser.scala:3921)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$enumCaseDef$1(ScalametaParser.scala:3905)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:354)
+	at scala.meta.internal.parsers.ScalametaParser.enumCaseDef(ScalametaParser.scala:3900)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3486)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3455)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4415)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4409)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4357)
+	at scala.meta.internal.parsers.ScalametaParser.getStats$2(ScalametaParser.scala:4399)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$templateStatSeq$3(ScalametaParser.scala:4400)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$templateStatSeq$3$adapted(ScalametaParser.scala:4397)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$templateStatSeq(ScalametaParser.scala:4397)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$templateStatSeq(ScalametaParser.scala:4386)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBodyOpt$1(ScalametaParser.scala:4245)
+	at scala.meta.internal.parsers.ScalametaParser.indentedOnOpen(ScalametaParser.scala:263)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4245)
+	at scala.meta.internal.parsers.ScalametaParser.templateAfterExtends(ScalametaParser.scala:4184)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4232)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4222)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$enumDef$1(ScalametaParser.scala:3893)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:354)
+	at scala.meta.internal.parsers.ScalametaParser.enumDef(ScalametaParser.scala:3871)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3799)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3495)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3455)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4382)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4366)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4357)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4579)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4590)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$10(ScalametaParser.scala:4590)
+	at scala.meta.internal.parsers.ScalametaParser.tryParse(ScalametaParser.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4582)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4550)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4543)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4543)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4548)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:127)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:124)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:46)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:124)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:139)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:130)
+	at scala.meta.internal.parsing.Trees.$anonfun$get$1(Trees.scala:39)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.parsing.Trees.get(Trees.scala:39)
+	at scala.meta.internal.parsing.DocumentSymbolProvider.documentSymbols(DocumentSymbolProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$documentSymbol$1(MetalsLspService.scala:1373)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.09.24 16:14:06 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 16:14:06 ERROR /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = _
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Init$.apply(Trees.scala:860)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:4075)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:303)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:347)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$annotsBuf$1(ScalametaParser.scala:3025)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.annotsBuf(ScalametaParser.scala:3025)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$annots$1(ScalametaParser.scala:3010)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$annots$1$adapted(ScalametaParser.scala:3010)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.annots(ScalametaParser.scala:3010)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.annotTypeRest(ScalametaParser.scala:942)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.annotTypeRest$(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.annotTypeRest(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.annotType(ScalametaParser.scala:939)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.$anonfun$compoundType$1(ScalametaParser.scala:909)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.compoundType(ScalametaParser.scala:907)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.compoundType$(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.compoundType(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixType(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixType$(ScalametaParser.scala:815)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.infixType(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixTypeOrTuple(ScalametaParser.scala:812)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixTypeOrTuple$(ScalametaParser.scala:810)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.infixTypeOrTuple(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.$anonfun$typ$1(ScalametaParser.scala:754)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:303)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:347)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.typ(ScalametaParser.scala:750)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.typ$(ScalametaParser.scala:750)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.typ(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser.typ(ScalametaParser.scala:2826)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$paramType$1(ScalametaParser.scala:3143)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:303)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:347)
+	at scala.meta.internal.parsers.ScalametaParser.paramType(ScalametaParser.scala:3130)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParam$11(ScalametaParser.scala:3226)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParam$1(ScalametaParser.scala:3214)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.termParam(ScalametaParser.scala:3155)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$4(ScalametaParser.scala:3106)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$4$adapted(ScalametaParser.scala:3106)
+	at scala.meta.internal.parsers.ScalametaParser.iter$1(ScalametaParser.scala:576)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1(ScalametaParser.scala:582)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1$adapted(ScalametaParser.scala:569)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.tokenSeparated(ScalametaParser.scala:569)
+	at scala.meta.internal.parsers.ScalametaParser.commaSeparatedWithIndex(ScalametaParser.scala:589)
+	at scala.meta.internal.parsers.ScalametaParser.parseParams$1(ScalametaParser.scala:3106)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$2(ScalametaParser.scala:3117)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpenOr(ScalametaParser.scala:238)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpenOr(ScalametaParser.scala:229)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$1(ScalametaParser.scala:3119)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.paramClause$1(ScalametaParser.scala:3119)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$8(ScalametaParser.scala:3122)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$8$adapted(ScalametaParser.scala:3121)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.termParamClausesOnParen(ScalametaParser.scala:3121)
+	at scala.meta.internal.parsers.ScalametaParser.termParamClauses(ScalametaParser.scala:3089)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$primaryCtor$1(ScalametaParser.scala:3948)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.primaryCtor(ScalametaParser.scala:3942)
+	at scala.meta.internal.parsers.ScalametaParser.enumSingleCaseDef(ScalametaParser.scala:3921)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$enumCaseDef$1(ScalametaParser.scala:3905)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:354)
+	at scala.meta.internal.parsers.ScalametaParser.enumCaseDef(ScalametaParser.scala:3900)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3486)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3455)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4415)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4409)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4357)
+	at scala.meta.internal.parsers.ScalametaParser.getStats$2(ScalametaParser.scala:4399)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$templateStatSeq$3(ScalametaParser.scala:4400)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$templateStatSeq$3$adapted(ScalametaParser.scala:4397)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$templateStatSeq(ScalametaParser.scala:4397)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$templateStatSeq(ScalametaParser.scala:4386)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBodyOpt$1(ScalametaParser.scala:4245)
+	at scala.meta.internal.parsers.ScalametaParser.indentedOnOpen(ScalametaParser.scala:263)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4245)
+	at scala.meta.internal.parsers.ScalametaParser.templateAfterExtends(ScalametaParser.scala:4184)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4232)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4222)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$enumDef$1(ScalametaParser.scala:3893)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:354)
+	at scala.meta.internal.parsers.ScalametaParser.enumDef(ScalametaParser.scala:3871)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3799)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3495)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3455)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4382)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4366)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4357)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4579)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4590)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$10(ScalametaParser.scala:4590)
+	at scala.meta.internal.parsers.ScalametaParser.tryParse(ScalametaParser.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4582)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4550)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4543)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4543)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4548)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:127)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:124)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:46)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:124)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.mtags.ScalaMtags.<init>(ScalaMtags.scala:24)
+	at scala.meta.internal.metals.Docstrings$Deindexer.<init>(Docstrings.scala:145)
+	at scala.meta.internal.metals.Docstrings.expireSymbolDefinition(Docstrings.scala:108)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:572)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:606)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:603)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1300)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:603)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:1292)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+Sep 24, 2023 4:14:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = _
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Init$.apply(Trees.scala:860)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:4075)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:303)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:347)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$annotsBuf$1(ScalametaParser.scala:3025)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.annotsBuf(ScalametaParser.scala:3025)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$annots$1(ScalametaParser.scala:3010)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$annots$1$adapted(ScalametaParser.scala:3010)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.annots(ScalametaParser.scala:3010)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.annotTypeRest(ScalametaParser.scala:942)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.annotTypeRest$(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.annotTypeRest(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.annotType(ScalametaParser.scala:939)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.$anonfun$compoundType$1(ScalametaParser.scala:909)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.compoundType(ScalametaParser.scala:907)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.compoundType$(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.compoundType(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixType(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixType$(ScalametaParser.scala:815)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.infixType(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixTypeOrTuple(ScalametaParser.scala:812)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.infixTypeOrTuple$(ScalametaParser.scala:810)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.infixTypeOrTuple(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.$anonfun$typ$1(ScalametaParser.scala:754)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:303)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:347)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.typ(ScalametaParser.scala:750)
+	at scala.meta.internal.parsers.ScalametaParser$PatternContextSensitive.typ$(ScalametaParser.scala:750)
+	at scala.meta.internal.parsers.ScalametaParser$outPattern$.typ(ScalametaParser.scala:2810)
+	at scala.meta.internal.parsers.ScalametaParser.typ(ScalametaParser.scala:2826)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$paramType$1(ScalametaParser.scala:3143)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:303)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:347)
+	at scala.meta.internal.parsers.ScalametaParser.paramType(ScalametaParser.scala:3130)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParam$11(ScalametaParser.scala:3226)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParam$1(ScalametaParser.scala:3214)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.termParam(ScalametaParser.scala:3155)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$4(ScalametaParser.scala:3106)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$4$adapted(ScalametaParser.scala:3106)
+	at scala.meta.internal.parsers.ScalametaParser.iter$1(ScalametaParser.scala:576)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1(ScalametaParser.scala:582)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1$adapted(ScalametaParser.scala:569)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.tokenSeparated(ScalametaParser.scala:569)
+	at scala.meta.internal.parsers.ScalametaParser.commaSeparatedWithIndex(ScalametaParser.scala:589)
+	at scala.meta.internal.parsers.ScalametaParser.parseParams$1(ScalametaParser.scala:3106)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$2(ScalametaParser.scala:3117)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpenOr(ScalametaParser.scala:238)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpenOr(ScalametaParser.scala:229)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$1(ScalametaParser.scala:3119)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.paramClause$1(ScalametaParser.scala:3119)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$8(ScalametaParser.scala:3122)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$8$adapted(ScalametaParser.scala:3121)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.termParamClausesOnParen(ScalametaParser.scala:3121)
+	at scala.meta.internal.parsers.ScalametaParser.termParamClauses(ScalametaParser.scala:3089)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$primaryCtor$1(ScalametaParser.scala:3948)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.primaryCtor(ScalametaParser.scala:3942)
+	at scala.meta.internal.parsers.ScalametaParser.enumSingleCaseDef(ScalametaParser.scala:3921)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$enumCaseDef$1(ScalametaParser.scala:3905)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:354)
+	at scala.meta.internal.parsers.ScalametaParser.enumCaseDef(ScalametaParser.scala:3900)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3486)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3455)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4415)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4409)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4357)
+	at scala.meta.internal.parsers.ScalametaParser.getStats$2(ScalametaParser.scala:4399)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$templateStatSeq$3(ScalametaParser.scala:4400)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$templateStatSeq$3$adapted(ScalametaParser.scala:4397)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$templateStatSeq(ScalametaParser.scala:4397)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$templateStatSeq(ScalametaParser.scala:4386)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBodyOpt$1(ScalametaParser.scala:4245)
+	at scala.meta.internal.parsers.ScalametaParser.indentedOnOpen(ScalametaParser.scala:263)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4245)
+	at scala.meta.internal.parsers.ScalametaParser.templateAfterExtends(ScalametaParser.scala:4184)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4232)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4222)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$enumDef$1(ScalametaParser.scala:3893)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:354)
+	at scala.meta.internal.parsers.ScalametaParser.enumDef(ScalametaParser.scala:3871)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3799)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3495)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3455)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4382)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4366)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4357)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4579)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4590)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$10(ScalametaParser.scala:4590)
+	at scala.meta.internal.parsers.ScalametaParser.tryParse(ScalametaParser.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4582)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4550)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4543)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4543)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4548)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:127)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:124)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:46)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:124)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:139)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:130)
+	at scala.meta.internal.parsing.Trees.$anonfun$get$1(Trees.scala:39)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.parsing.Trees.get(Trees.scala:39)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:85)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:97)
+	at scala.meta.internal.metals.codeactions.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:78)
+	at scala.meta.internal.metals.codeactions.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:76)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.codeactions.CodeActionProvider.codeActions(CodeActionProvider.scala:76)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeAction$1(MetalsLspService.scala:1562)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.codeAction(MetalsLspService.scala:1561)
+	at scala.meta.internal.metals.WorkspaceLspService.codeAction(WorkspaceLspService.scala:432)
+	at scala.meta.metals.lsp.DelegatingScalaService.codeAction(DelegatingScalaService.scala:146)
+	... 15 more
+
+2023.09.24 16:14:24 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 16:14:47 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:14:49 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:15:44 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:15:46 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:16:19 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:16:33 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:16:36 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:16:48 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:16:50 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:16:53 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:16:54 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:17:45 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:17:46 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:17:50 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:17:54 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:19:01 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:19:38 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:24:54 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:25:15 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:25:19 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:27:29 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:28:30 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:28:46 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:28:51 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:28:56 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:28:59 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:29:01 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:29:06 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:29:08 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:29:11 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:29:13 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:29:14 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:29:17 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:30:29 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:34:22 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:34:48 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:35:53 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 16:36:19 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 17:01:02 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 17:01:05 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 17:01:07 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 17:01:09 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 17:01:11 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 17:01:13 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 17:01:53 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 17:02:18 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 17:02:32 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 17:02:34 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 17:02:35 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 17:02:37 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/test/scala/TestBoundingBox.scala
+2023.09.24 17:03:17 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 17:03:20 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 17:04:13 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 17:04:15 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 17:04:32 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 17:04:35 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 17:05:16 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 17:05:20 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 17:05:30 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 17:05:52 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 17:07:05 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 17:07:10 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 17:07:14 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 17:07:48 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/shapes.scala
+2023.09.24 17:08:13 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 17:08:18 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 17:08:24 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 17:08:27 WARN  no build target for: /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala
+2023.09.24 22:53:18 INFO  Started: Metals version 1.0.1 in folders '/workspace/assignment1-comp471' for client Gitpod Code 1.82.2.
+Sep 24, 2023 10:53:18 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 24, 2023 10:53:18 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 24, 2023 10:53:18 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 24, 2023 10:53:19 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/workspace/assignment1-comp471/.metals/metals (H2 2.1)
+Sep 24, 2023 10:53:19 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.081s)
+Sep 24, 2023 10:53:19 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 24, 2023 10:53:19 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.24 22:53:19 INFO  time: initialize in 1.07s
+2023.09.24 22:53:23 INFO  Attempting to connect to the build server...
+2023.09.24 22:53:31 INFO  no build target found for /workspace/assignment1-comp471/project-1a-kvngwinston/src/main/scala/boundingBox.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.24 22:53:34 INFO  time: code lens generation in 9.63s
+2023.09.24 22:53:34 INFO  time: code lens generation in 2.66s
+2023.09.24 23:01:03 INFO  Started: Metals version 1.0.1 in folders '/workspace/assignment1-comp471' for client Gitpod Code 1.82.2.
+Sep 24, 2023 11:01:03 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 24, 2023 11:01:03 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 24, 2023 11:01:03 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 24, 2023 11:01:03 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/workspace/assignment1-comp471/.metals/metals (H2 2.1)
+Sep 24, 2023 11:01:03 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.026s)
+Sep 24, 2023 11:01:03 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 24, 2023 11:01:03 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.24 23:01:03 INFO  time: initialize in 0.33s
+2023.09.24 23:01:05 INFO  Attempting to connect to the build server...
+2023.09.24 23:01:05 INFO  Running BSP server List(/home/gitpod/.sdkman/candidates/java/17.0.8.1-tem/bin/java, -Xms100m, -Xmx100m, -classpath, /home/gitpod/.sdkman/candidates/sbt/1.9.6/bin/sbt-launch.jar, -Dsbt.script=/home/gitpod/.sdkman/candidates/sbt/current/bin/sbt, xsbt.boot.Boot, -bsp)
+2023.09.24 23:01:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspace/assignment1-comp471/.metals/bsp.trace.json or /home/gitpod/.cache/metals/bsp.trace.json
+2023.09.24 23:01:05 INFO  BSP server: Picked up JAVA_TOOL_OPTIONS:  -Xmx3489m
+2023.09.24 23:01:07 INFO  BSP server: [info] server was not detected. starting an instance
+2023.09.24 23:01:07 INFO  BSP server: Picked up JAVA_TOOL_OPTIONS:  -Xmx3489m
+2023.09.24 23:01:07 INFO  BSP server: Picked up JAVA_TOOL_OPTIONS:  -Xmx3489m
